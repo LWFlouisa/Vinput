@@ -1,3 +1,17 @@
+
+### For a data of four, map hidden data based on reverse cryptography.
+
+#### Mode One
+~~~ruby
+  0   1   3   7   6   4
+0 0,0 0,1 0,3 0,7 0,6 0,4
+1 1,0 1,1 1,3 1,7 1,6 1,4
+3 3,0 3,1 3,3 3,7 3,6 3,4
+7 7,0 7,1 7,3 7,7 7,6 7,4
+6 6,0 6,1 6,3 6,7 6,6 6,4
+4 4,0 4,1 4,3 4,7 4,6 4,4
+~~~
+
 # Vinput
 Just a theoretical breakdown of Vinput.
 
@@ -20,19 +34,6 @@ mode_3 = [ sev, fiv, one, two, fro, eit ]
 mode_4 = [ eit, sev, fiv, one, two, fro ]
 mode_5 = [ fro, eit, sev, fiv, one, two ]
 mode_6 = [ two, fro, eit, sev, fiv, one ]
-~~~
-
-### For a data of four, map hidden data based on reverse cryptography.
-
-#### Mode One
-~~~ruby
-  0   1   3   7   6   4
-0 0,0 0,1 0,3 0,7 0,6 0,4
-1 1,0 1,1 1,3 1,7 1,6 1,4
-3 3,0 3,1 3,3 3,7 3,6 3,4
-7 7,0 7,1 7,3 7,7 7,6 7,4
-6 6,0 6,1 6,3 6,7 6,6 6,4
-4 4,0 4,1 4,3 4,7 4,6 4,4
 ~~~
 
 ### Use nueral network to infer implied data.
