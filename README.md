@@ -2,7 +2,7 @@
 ### For a data of four, map hidden data based on reverse cryptography.
 
 #### Mode One
-~~~ruby
+~~~
   0   1   3   7   6   4
 0 0,0 0,1 0,3 0,7 0,6 0,4
 1 1,0 1,1 1,3 1,7 1,6 1,4
